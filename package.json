@@ -1,0 +1,34 @@
+{
+  "name": "did-clt-tool",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node create-did.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@veramo/cli": "^6.0.0",
+    "@veramo/core": "^6.0.0",
+    "@veramo/credential-status": "^6.0.0",
+    "@veramo/credential-w3c": "^6.0.0",
+    "@veramo/data-store": "^6.0.0",
+    "@veramo/data-store-json": "^6.0.0",
+    "@veramo/did-manager": "^6.0.0",
+    "@veramo/did-provider-ethr": "^6.0.0",
+    "@veramo/key-manager": "^6.0.0",
+    "@veramo/kms-local": "^6.0.0",
+    "did-jwt": "^8.0.14",
+    "did-resolver": "^4.1.0",
+    "ethr-did-resolver": "^11.0.3",
+    "jsonld-signatures": "^11.5.0",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.22",
+    "uuid": "^11.1.0",
+    "vc-js": "^0.6.4"
+  }
+}
